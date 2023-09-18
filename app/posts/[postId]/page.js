@@ -1,10 +1,10 @@
 import React from 'react'
 import Layout from '../layout'
-const page =() => {
+const page =({params,postId: any}) => {
     return (
         <div> 
         
-            <h1> need to check the dynamic ide here</h1>
+            <h1> Dynamic ID here {params.postId}</h1>
         
         </div>
     )
